@@ -10,8 +10,14 @@ public class AnimationSceneScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        inviteeName.text = GlobalControl.Instance.inviteeName;
-        date.text = GlobalControl.Instance.date;
+        if (GlobalControl.Instance != null && GlobalControl.Instance.inviteeName != null)
+        {
+            inviteeName.text = GlobalControl.Instance.inviteeName;
+        }
+        if (GlobalControl.Instance != null && GlobalControl.Instance.date != null)
+        {
+            date.text = GlobalControl.Instance.date;
+        }
 	}
 	
 	// Update is called once per frame

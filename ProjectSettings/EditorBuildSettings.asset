@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Enter Details.unity
+    path: Assets/Scenes/Main Scene.unity
     guid: deba68602b04fc54fb60cc50fd7043f5
   - enabled: 1
     path: Assets/Scenes/Animation Scene.unity
     guid: 533f535aa5614fe4eab38f7ee44b0855
+  - enabled: 1
+    path: Assets/Scenes/Greeting Scene.unity
+    guid: 79b23a97b6ea73f44930766ce274de3b
+  - enabled: 1
+    path: Assets/Scenes/Invitation Scene.unity
+    guid: 2861aafe2dff45040a044ad2c1139ac1
+  - enabled: 1
+    path: Assets/Scenes/Schedule Scene.unity
+    guid: 158071b92c80b9746b1a9add79286054
+  - enabled: 1
+    path: Assets/Scenes/Animation Scene1.unity
+    guid: dcc8bb82089c8ff45b0e59ca77ea38a8

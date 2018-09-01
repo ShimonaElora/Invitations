@@ -8,6 +8,13 @@ public class GlobalControl : MonoBehaviour
 
     public string inviteeName;
     public string date;
+    public int languageSelected;
+    public int videoTypeSelected;
+    public bool addIntro;
+    public string message;
+    public string functionName;
+    public string time;
+    public int music;
 
     void Awake()
     {
@@ -20,6 +27,12 @@ public class GlobalControl : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        inviteeName = "";
+        date = "";
+        languageSelected = 0;
+        videoTypeSelected = 0;
+        music = 0;
     }
 
 }
