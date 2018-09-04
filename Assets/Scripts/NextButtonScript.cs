@@ -58,8 +58,18 @@ public class NextButtonScript : MonoBehaviour {
             //GlobalControl.Instance.music = music.options[music.value].text.ToString();
         }
 
-        SceneManager.LoadScene("Animation Scene1");
-        canvas.enabled = false;
+        switch (GlobalControl.Instance.videoTypeSelected)
+        {
+            case 0:
+                SceneManager.LoadScene("Invitation Animation Scene");
+                break;
+            case 1:
+                SceneManager.LoadScene("Greeting Animation Scene");
+                break;
+            case 2:
+                SceneManager.LoadScene("Schedule Animation Scene");
+                break;
+        }
 
     }
 

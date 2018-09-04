@@ -76,6 +76,8 @@ public class RecordCamera : MonoBehaviour {
         Debug.Log("here");
         //Handheld.PlayFullScreenMovie(path);
         NatShareU.NatShare.ShareMedia(path);
+        //NativeGallery.SaveVideoToGallery(path, "Invitations", "Inviation" + System.DateTime.Today.ToString(), null);
+        NatShareU.NatShare.SaveToCameraRoll(path);
     }
 
     //Update is called once per frame
