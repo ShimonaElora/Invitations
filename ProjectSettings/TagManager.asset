@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Scene UI
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Scene UI
+    uniqueID: 1733826735
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
